@@ -46,13 +46,13 @@ class W65C02:
 			self.address = int(msg[6:10], 16)
 			self.read_write = msg[11:12]
 			self.data = int(msg[13:], 16)
-			print("Address : " + hex(self.address) + "  Data Written to 6502 : " + hex(self.memmap[self.address - self.addr_offset]))
+			print(">> Instruction Address : " + hex(self.address) + " Instruction / Data  : "  + hex(self.memmap[self.address - self.addr_offset]))
 			if self.read_write == 'R':
 				self.write_data()
-			elif self.read_write == 'W':
+			elif self.read_write == 'W' or self.read_write == 'X':
 				self.write_local_data()
 		else:
-			print(msg)
+			print(" << " + msg)
 	def run_loop(self):
 		while True: 
 			data = self.read_message()

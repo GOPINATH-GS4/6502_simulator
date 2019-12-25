@@ -1,4 +1,4 @@
- .org $8000
+ .org $0000
 start: 
  lda #$ff
  sta $6002

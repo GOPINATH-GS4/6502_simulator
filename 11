@@ -1,0 +1,1151 @@
+vasm 1.8g (c) in 2002-2019 Volker Barthelmann
+vasm 6502 cpu backend 0.8 (c) 2002,2006,2008-2012,2014-2018 Frank Wille
+vasm oldstyle syntax module 0.13f (c) 2002-2018 Frank Wille
+vasm binary output module 1.8a (c) 2002-2009,2013,2015,2017 Volker Barthelmann
+
+seg0(acrwx1):	          32 bytes
+segfffc(acrwx1):	           4 bytes
+Communication initialized ... Address offset = 0x0
+ << [DEBUG]:011a:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x11a Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:ffff:R:00:10:cs1:true:cs2:true:register:0000
+>> Instruction Address : 0xffff Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:4023:R:00:10:cs1:false:cs2:false:register:0000
+>> Instruction Address : 0x4023 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:011a:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x11a Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0119:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x119 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0118:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x118 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:fffc:R:00:10:cs1:true:cs2:true:register:0000
+>> Instruction Address : 0xfffc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:fffd:R:00:10:cs1:true:cs2:true:register:0000
+>> Instruction Address : 0xfffd Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0000:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x0 Instruction / Data  : 0xa9
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0001:R:a9:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0002:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x2 Instruction / Data  : 0x8d
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0003:R:8d:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x3 Instruction / Data  : 0x2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0004:R:02:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x4 Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6002:W:ff:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6002 Instruction / Data  : 0x0
+ << [DEBUG]:0005:R:ff:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x5 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0006:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x6 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0007:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x7 Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0008:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x8 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0009:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x9 Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:00:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x0
+ << [DEBUG]:000a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [DEBUG]:0116:W:0c:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x116 Instruction / Data  : 0x0
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0115:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x115 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0116:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:00:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x0
+ << [DEBUG]:0010:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:1a:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [DEBUG]:0116:W:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0115:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x115 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0116:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:0c:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:01:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x0
+ << [DEBUG]:0010:R:01:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:W:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [DEBUG]:0116:W:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0115:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x115 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0116:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:0c:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:02:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x1
+ << [DEBUG]:0010:R:02:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:1a:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [DEBUG]:0116:W:0c:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0115:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x115 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0116:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:0c:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:03:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x2
+ << [DEBUG]:0010:R:03:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:R:1a:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0117:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x117 Instruction / Data  : 0x0
+ << [DEBUG]:0116:W:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x116 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:11:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:ffff:R:ea:10:cs1:true:cs2:true:register:0000
+>> Instruction Address : 0xffff Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0115:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x115 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0114:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x114 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0113:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x113 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:fffc:R:00:10:cs1:true:cs2:true:register:0000
+>> Instruction Address : 0xfffc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:fffd:R:00:10:cs1:true:cs2:true:register:1111
+>> Instruction Address : 0xfffd Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0000:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x0 Instruction / Data  : 0xa9
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0001:R:a9:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0002:R:ff:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x2 Instruction / Data  : 0x8d
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0003:R:8d:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x3 Instruction / Data  : 0x2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0004:R:02:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x4 Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6002:W:ff:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6002 Instruction / Data  : 0xff
+ << [DEBUG]:0005:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x5 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0006:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x6 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0007:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x7 Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0008:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x8 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0009:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x9 Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:00:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x3
+ << [DEBUG]:000a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x111 Instruction / Data  : 0x0
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:00:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x0
+ << [DEBUG]:0010:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:01:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x0
+ << [DEBUG]:0010:R:01:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:02:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x1
+ << [DEBUG]:0010:R:02:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:1111
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:03:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x2
+ << [DEBUG]:0010:R:03:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:04:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x3
+ << [DEBUG]:0010:R:04:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e8:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0011:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x11 Instruction / Data  : 0xe0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0012:R:e0:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x12 Instruction / Data  : 0xff
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0013:R:ff:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x13 Instruction / Data  : 0xd0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0014:R:d0:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x14 Instruction / Data  : 0xf5
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0015:R:f5:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x15 Instruction / Data  : 0xa2
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000a:R:a2:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xa Instruction / Data  : 0x20
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000b:R:20:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xb Instruction / Data  : 0x1a
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:1a:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:W:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [DEBUG]:0111:W:0c:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [DEBUG]:000c:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001a:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1a Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001b:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1b Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001c:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1c Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001d:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1d Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0111
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001e:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1e Instruction / Data  : 0xea
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:ea:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:001f:R:60:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x1f Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0020:R:60:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0x20 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0110:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x110 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0111:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0x111 Instruction / Data  : 0xc
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:0112:R:0c:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x112 Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000c:R:00:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xc Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000d:R:00:10:cs1:false:cs2:true:register:0011
+>> Instruction Address : 0xd Instruction / Data  : 0x8e
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000e:R:8e:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0xe Instruction / Data  : 0x0
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:000f:R:00:10:cs1:false:cs2:true:register:0001
+>> Instruction Address : 0xf Instruction / Data  : 0x60
+ << [IN]:0x00 written to data bus
+ << [DEBUG]:6000:W:05:10:cs1:true:cs2:false:register:0000
+>> Instruction Address : 0x6000 Instruction / Data  : 0x4
+ << [DEBUG]:0010:R:05:10:cs1:false:cs2:true:register:0000
+>> Instruction Address : 0x10 Instruction / Data  : 0xe8
+ << [IN]:0x00 written to data bus
