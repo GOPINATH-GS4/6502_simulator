@@ -1,3 +1,11 @@
+PORTB = $6000
+PORTA = $6001
+DDRB = $6002
+DDRA = $6003
+
+E  = %10000000
+RW = %01000000
+RS = %00100000
  .org $4000
 start: 
  lda #$ff
@@ -10,7 +18,7 @@ loop:
  sta $6000
  inx 
  jsr delay
- cpx #$11
+ cpx #$12
  bne loop
  ldx #$00
  jmp loop 
@@ -24,8 +32,24 @@ digits:
  .word $3EEE
  .word $7A9C
  .word $8E9E
- .word $0001 
+ .word $0011 
 
+clear_display:
+ pha 
+ lda #%00001110 ; Display on; cursor on; blink off
+ jsr set_register
+ pla
+ rts
+
+set_register:
+  sta PORTB
+  lda #0         ; Clear RS/RW/E bits
+  sta PORTA
+  lda #E         ; Set E bit to send instruction
+  sta PORTA
+  lda #0         ; Clear RS/RW/E bits
+  sta PORTA
+  rts
 delay: 
   nop
   nop

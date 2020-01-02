@@ -48,7 +48,7 @@ reset:
   jsr output_char
   lda #" "
   jsr output_char
-  lda #"y"
+  lda #"Y"
   jsr output_char
   lda #"e"
   jsr output_char
@@ -59,6 +59,34 @@ reset:
   lda #"!"
   jsr output_char
 
+  lda #%0011000000
+  jsr set_register 
+
+  lda #"1"
+  jsr output_char 
+  lda #" "
+  jsr output_char 
+  lda #"J"
+  jsr output_char 
+  lda #"A"
+  jsr output_char 
+  lda #"N"
+  jsr output_char 
+  lda #" "
+  jsr output_char 
+  lda #"2"
+  jsr output_char 
+  lda #"0"
+  jsr output_char 
+  lda #"2"
+  jsr output_char 
+  lda #"0"
+  jsr output_char 
+  lda #" "
+  jsr output_char 
+  
+loop:
+  jmp loop
 
 output_char:
 
@@ -81,8 +109,6 @@ set_register:
   sta PORTA
   rts
  
-loop:
-  jmp loop
 
   .org $fffc
   .word reset
